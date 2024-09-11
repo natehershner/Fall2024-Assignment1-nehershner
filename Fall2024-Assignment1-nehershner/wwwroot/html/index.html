@@ -1,38 +1,89 @@
-﻿<!DOCTYPE html>
+﻿<!-- This page is for Web Development Fall 2024 Assignment 1. Its function is to display information regarding Bojack Horseman.'-->
+<!DOCTYPE html>
 <html>
+
+<!--This head tag assigns the charset, sets the title of the tab, and links the stylesheet.-->
 <head>
     <meta charset="utf-8" />
     <title>Bojack Horseman</title>
     <link rel="stylesheet" href="/css/index.css" />
 </head>
+
+<!--This body tag contains the entire web page.-->
 <body>
+
+    <!--This div tag is used to contain the entire webpage. It functions similar to the body tag in this instance.-->
     <div class="container">
+
+        <!--This h1 tag is used to title the page.-->
         <h1 id="Title">
             Bojack Horseman
         </h1>
-        <img id ="CoverArt" src="/images/bojack_for_title.jfif" />
-        <h5 id="Rating">
-            IMDB Rating: 8.8/10
-        </h5>
+
+        <!--This img tag displays an image of Bojack Horseman.-->
+        <img id="CoverArt" src="/images/bojack_for_title.jfif" />
+
+        <!--This p tag contains the IMDB summary of Bojack Horseman.-->
+        <p id="Summary">
+            <strong>Summary</strong>
+
+            <!--This span tag is used to separate the summary from the summary header while containing both in the same p tag.-->
+            <span class="pSpacing"></span>
+            BoJack Horseman was the star of the hit television show "Horsin' Around" in the '80s and '90s, but now he's washed up, living in Hollywood, complaining about everything, and wearing colorful sweaters.
+        </p>
+
+        <!--This iframe displays the Bojack Horseman trailer.-->
         <iframe id="Trailer" src="https://www.youtube.com/embed/i1eJMig5Ik4" title="BoJack Horseman | Official Trailer [HD] | Netflix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <!--This a tag is used to link to the IMDB page.-->
         <a href="https://www.imdb.com/title/tt3398228/" class="IMDBPage">
             IMDB Page
         </a>
-        <p id="Summary">
-           Summary
-           <span class="pSpacing"></span>
-           BoJack Horseman was the star of the hit television show "Horsin' Around" in the '80s and '90s, but now he's washed up, living in Hollywood, complaining about everything, and wearing colorful sweaters.
-        </p>
+
+        <!--This h5 tag is used to contain the IMDB rating.-->
+        <h5 id="Rating">
+
+            <!--This a tag is used to link to the IDMB rating.-->
+            <a href="https://www.imdb.com/title/tt3398228/ratings/?ref_=tt_ov_rt" class="IMDBRating">
+                IMDB Rating: 8.8/10
+            </a>
+        </h5>
+
+        <!--This p tag is used to create a header for the actor list.-->
         <p id="ActorList">
             Actors:
         </p>
+
+        <!--This div tag contains the actor list-->
         <div class="centered-list">
+
+            <!--This ul tag creates the actor list. Each li tag contains an a tag linking the listed actor to the actor's IMDB page via the actors's name.-->
             <ul id="Actors">
-                <li>Will Arnett</li>
-                <li>Aaron Paul</li>
-                <li>Allsion Brie</li>
-                <li>Amy Sedaris</li>
-                <li>Paul F. Tompkins</li>
+                <li>
+                    <a href="https://www.imdb.com/name/nm0004715/">
+                        Will Arnett
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.imdb.com/name/nm0666739/">
+                        Aaron Paul
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.imdb.com/name/nm1555340/">
+                        Alison Brie
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.imdb.com/name/nm0781238/">
+                        Amy Sedaris
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.imdb.com/name/nm0006670/">
+                        Paul F. Tompkins
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
