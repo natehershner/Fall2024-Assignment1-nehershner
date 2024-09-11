@@ -1,4 +1,4 @@
-# Fall2024-Assignment1-nehershner
+# Fall2024-Assignment1
 This site can be visited at https://fall2024-assignment1-nehershner.azurewebsites.net/ \
 \
 The locations of the required features will be added in the future.\
