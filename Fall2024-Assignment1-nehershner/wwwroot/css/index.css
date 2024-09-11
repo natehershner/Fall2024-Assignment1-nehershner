@@ -168,7 +168,7 @@ body {
 }
 
 
-/* Contains the styling for the iframe when visited on a mobile device*/
+/* Contains the styling for the iframe and additionalfeatures button when visited on a mobile device*/
 @media (max-width: 768px) {
     #Trailer {
         width: 50%;
