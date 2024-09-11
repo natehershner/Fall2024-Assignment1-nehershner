@@ -2,10 +2,12 @@
 <!DOCTYPE html>
 <html>
 
-<!--This head tag assigns the charset, sets the title of the tab, and links the stylesheet.-->
+<!--This head tag assigns the charset, sets viewport to device settings, sets the title of the tab, and links the stylesheet.-->
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bojack Horseman</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/index.css" />
 </head>
 
@@ -15,10 +17,18 @@
     <!--This div tag is used to contain the entire webpage. It functions similar to the body tag in this instance.-->
     <div class="container">
 
-        <!--This h1 tag is used to title the page.-->
+        <!--This class is used to contain the additionalfeatures button-->
+        <div class="header">
+
+            <!--This button is used to navigate to the additionalfeatures page-->
+            <button class="btn btn-dark next-page" onclick="window.location.href='/html/additionalfeatures.html';" type="button">
+                Additional Features
+            </button>
+        </div>
+
         <h1 id="Title">
             Bojack Horseman
-        </h1>
+         </h1>
 
         <!--This img tag displays an image of Bojack Horseman.-->
         <img id="CoverArt" src="/images/bojack_for_title.jfif" />
