@@ -7,8 +7,6 @@ body {
 
 /* Contains the styling for the title */
 #Title {
-    position: relative;
-    top: 10%;
     font-size: 50px;
 }
 
@@ -153,12 +151,12 @@ body {
 
 /* Contains the styling for the header */
 .header {
-    position: absolute; /* Use absolute positioning */
-    top: 0; /* Align to the top of the page */
-    left: 0; /* Align to the left of the page */
-    padding: 10px; /* Add some padding if needed */
-    margin: 0; /* Remove any default margin */
-    z-index: 10; /* Ensure it stays on top of other content */
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    padding: 10px; 
+    margin: 0; 
+    z-index: 10; 
 }
 
 /* Contains the styling for the header button */
@@ -167,8 +165,13 @@ body {
     padding: 5px 10px;
 }
 
+/* Contains the styling for the div containing the title*/
+.title-div {
+    position: relative;
+    margin-top: 5%;
+}
 
-/* Contains the styling for the iframe and additionalfeatures button when visited on a mobile device*/
+/* Contains the styling for the iframe, additionalfeatures button, and title section when visited on a mobile device */
 @media (max-width: 768px) {
     #Trailer {
         width: 50%;
@@ -176,7 +179,10 @@ body {
     }
 
     .header {
-        width: 10px;
-        height: 10px;
+        top: 10px;
+        left: 10px;
+    }
+    .title-div {
+        margin-top: 20%;
     }
 }
