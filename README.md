@@ -1,6 +1,8 @@
 # Fall2024-Assignment1
 This site can be visited at https://fall2024-assignment1-nehershner.azurewebsites.net/ \
 \
+**PLEASE NOTE:** The simplicity of this project does not reflect my capabilities as a web developer. The requirements call for specific, simple HTML and CSS features rather than using a typical JavaScript framework. Under less specific requirements, this project would be built on Angular, React, or Vue.\
+\
 The locations of the required features will be added in the future.\
 \
 <strong>Required Features</strong>:\
@@ -15,4 +17,4 @@ The locations of the required features will be added in the future.\
   &nbsp;&nbsp;&nbsp;9: h5 element with ID Rating\
   &nbsp;&nbsp;&nbsp;10: ul element with ID Actors\
   &nbsp;&nbsp;&nbsp;11: all content on page is centered\
-  &nbsp;&nbsp;&nbsp;12: all text is a contrasting color from the background\
+  &nbsp;&nbsp;&nbsp;12: all text is a contrasting color from the background
