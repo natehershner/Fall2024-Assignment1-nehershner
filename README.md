@@ -1,10 +1,8 @@
 # Fall2024-Assignment1
-This site can be visited at https://fall2024-assignment1-nehershner.azurewebsites.net/ \
-\
-**PLEASE NOTE:** The simplicity of this project does not reflect my capabilities as a web developer. The requirements call for specific, simple HTML and CSS features rather than using a typical JavaScript framework. Under less specific requirements, this project would be built on Angular, React, or Vue.\
-\
-The locations of the required features will be added in the future.\
-\
+This site can be visited at https://fall2024-assignment1-nehershner.azurewebsites.net/ 
+
+
+
 <strong>Required Features</strong>:\
   &nbsp;&nbsp;&nbsp;1: background color for entire page\
   &nbsp;&nbsp;&nbsp;2: div containing the entire page\
